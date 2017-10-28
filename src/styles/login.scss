@@ -1,0 +1,25 @@
+body {
+  background-image: url('../image/bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.App {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    max-width: 360px;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 30px;
+    .login {
+      margin: 0;
+      width: 100%;
+    }
+  }
+}

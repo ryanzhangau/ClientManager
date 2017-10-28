@@ -1,0 +1,16 @@
+@import './settings';
+@import '../../node_modules/foundation-sites/scss/foundation';
+$xy-grid: false;
+
+@include foundation-everything(true);
+
+
+body, #root{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
